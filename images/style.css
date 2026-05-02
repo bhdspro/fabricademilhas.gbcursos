@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "Open Sans", Sans-serif;
+}
+
+body {
+  background-color: #EFE4D9;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
